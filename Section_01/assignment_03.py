@@ -22,38 +22,8 @@ word = "Cool"
 
 # Your code below:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Solution Below:
-# print(chars[:2] + word + chars[2:])
+chars = "[[]]"
+word = "Cool"
+print(chars[0:2] + word + chars[2:])
 
 
