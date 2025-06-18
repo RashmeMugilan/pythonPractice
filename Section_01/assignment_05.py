@@ -21,12 +21,10 @@ word = "Cool"
 
 # Expected Result Printed: <<[Cool]]]
 
-
-# Your code below:
-
-
-
-
+#Solution
+size = len(chars)
+index = int(size/2) # dividing results in a float datatype.
+print(chars[:index] + word + chars[index:])
 
 
 
@@ -58,9 +56,9 @@ word = "Cool"
 
 
 
-# Solution Below:
-# size = len(chars)
-# idx = int(size/2) # dividing results in a float datatype.
-# print(chars[:idx] + word + chars[idx:])
+
+
+
+
 
 
