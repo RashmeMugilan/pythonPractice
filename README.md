@@ -1,5 +1,6 @@
 Im currently upskiling myself by using the resource "The Complete Python Developer Certification Course" from Udemy.
 The assignments and solutions added to this repository are the practice assignments given in this course.
+Below are the topics covered in this course.
 
 Section 1: Introduction
 =======================
