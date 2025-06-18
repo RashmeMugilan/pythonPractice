@@ -1,4 +1,4 @@
-# Assignment 4:
+t# Assignment 4:
 """
     Given 2 variables word1 and word2, write code to
     print the concatenation of the 2 words omitting the
@@ -20,44 +20,6 @@ word2 = "Truck"
 
 # Your code below:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Solution Below:
-# result = word1[1:] + word2[0:1] + word2[2:]
-# print(result)
+print(word1 + word2[0] + word2[2:])
 
 
