@@ -28,4 +28,23 @@ Section 3: Functions and Variable Scope
 -> *args and **kwargs in Python
 -> Basics of Variable Scope
 -> Scope and Nested Functions
- 
+
+Section 4: Control Flow
+=======================
+-> If & Else Statement
+-> Elif Statement
+-> For Loops
+-> Pass Statement in For loops
+-> While Loop
+-> Looping and Unpacking with dictionaries, tuples
+-> Range, enumerate and zip functions
+-> More Handy functions and the Random package
+-> Accepting input from User
+
+Section 5: Coding Exercise (control Flow)
+==========================================
+-> 2 exercises
+
+Section 6: Modules, Packages and Object Oriented Programming in Python
+=======================================================================
+
