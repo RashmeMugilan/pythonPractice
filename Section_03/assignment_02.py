@@ -7,12 +7,13 @@
     Make sure to test the function.
 """
 # Your Code Below:
+def separate(string_obJ):
+    return list(string_obJ)
 
 
-
-
-
-
+str_obj = "Hi There, Good Morning!"
+final_list = separate(str_obj)
+print(final_list)
 
 
 
