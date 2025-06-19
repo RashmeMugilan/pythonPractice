@@ -6,46 +6,16 @@
 """
 
 # your code below:
+def merge_lists(list1, list2):
+    new_list = list1 + list2
+    return new_list
 
+list1 = ["apple", "banana", "orange"]
+list2 = ["sweet", "sweetest", "tangerine"]
+merged_list = merge_lists(list1, list2)
+print(merged_list)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#can be done as below also
 # solution Below:
 
 # def merge_lists(list_a, list_b):
