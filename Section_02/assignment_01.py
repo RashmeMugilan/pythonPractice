@@ -8,43 +8,5 @@ my_list = [{'Tom': 20000, 'Bill': 12000}, ['car', 'laptop', 'TV']]
 
 
 # your code below:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Solution
-# print(my_list[0].get('Bill'))
+# Here my_list[0] = {'Tom': 20000, 'Bill': 12000}
+print(my_list[0].get('Bill'))
