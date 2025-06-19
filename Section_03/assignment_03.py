@@ -11,7 +11,14 @@ argument as individual elements in the list.
 """
 # Your Code Below:
 
+def multi_merge(list1, str_obj):
+    list2 = str_obj.split() + list(str_obj)
+    return (list1 + list2)
 
+list1 = [1, 2, 3]
+str_obj = "Hi There, Good Morning!"
+final_list = multi_merge(list1, str_obj)
+print(final_list)
 
 
 
