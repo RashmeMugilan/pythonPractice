@@ -18,7 +18,17 @@ Example:
 """
 
 # Your Code Below:
+def pay_extra(working,hours):
+    if((working == True) and (hours < 8 or hours > 20)):
+        return True
+    else:
+        return False
 
+
+pex1 = pay_extra(True, 11)
+pex2 = pay_extra(False, 5)
+pex3 = pay_extra(True, 6)
+print(pex1, pex2, pex3)
 
 
 
