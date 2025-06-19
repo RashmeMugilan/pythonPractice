@@ -1,4 +1,4 @@
-# Assignment 3:
+ra# Assignment 3:
 """
 There is a list shown below titled original_list.
 
@@ -12,59 +12,12 @@ IMPORTANT: you must do this programmatically! Don't just
 original_list = ['cup', 'cereal', 'milk', (8, 4, 3)]
 
 # your code below:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Solution
-# num1 = original_list[3][0]
-# num2 = original_list[3][1]
-# num3 = original_list[3][2]
-# new_list = [num1, num2, num3]
-# new_list.sort()
-# new_tuple = (new_list[0], new_list[1], new_list[2])
-# new_list = [original_list[0], original_list[1], original_list[2], new_tuple]
-#
-# print(new_list)
+# we cannot use sort() in a tuple, so first create it as a List, sort it and again create a new tuple with the sorted elements
+tup1 = original_list[3][0]
+tup2 = original_list[3][1]
+tup3 = original_list[3][2]
+new_list = [tup1, tup2, tup3]
+new_list.sort()
+new_tuple = (new_list[0], new_list[1], new_list[2])
+new_list = [original_list[0], original_list[1], original_list[2], new_tuple]
+print(new_list)
