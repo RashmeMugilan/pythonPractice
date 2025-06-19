@@ -13,7 +13,13 @@ Example:
 """
 
 # Your code below:
+def last_list(*args):
+    #list1 = args[-1]
+    return args[-1]
+    
 
+ll =     last_list([1,2,3,4,5], ['a', 'b', 'c'], ['mike', 'john'])
+print(ll)
 
 
 
